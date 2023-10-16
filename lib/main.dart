@@ -165,7 +165,10 @@ class _MyAppstate extends State<MyApp> {
                 Text(''),
                 GestureDetector(
                   onTap: () => calcular('<x'),
-                  child: Text('<x',style: TextStyle(fontSize: 36),),
+                  child: Image.asset(
+                    'assets/images/arrow_back.png', 
+                    width: 30,
+                  ),
                 ),
               ],
             ),
